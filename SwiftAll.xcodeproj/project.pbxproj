@@ -18,6 +18,7 @@
 		FA883CBF25B04EB700FADF45 /* NSStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */; };
 		FA883CC425B04FE000FADF45 /* NSDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */; };
 		FA883CC925B04FF800FADF45 /* NSArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */; };
+		FAFEA42A25B18FF900B68E73 /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFEA42925B18FF900B68E73 /* FuncViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStringViewController.swift; sourceTree = "<group>"; };
 		FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionaryViewController.swift; sourceTree = "<group>"; };
 		FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSArrayViewController.swift; sourceTree = "<group>"; };
+		FAFEA42925B18FF900B68E73 /* FuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */,
 				FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */,
 				FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */,
+				FAFEA42925B18FF900B68E73 /* FuncViewController.swift */,
 				FA883C8725B03E7C00FADF45 /* Main.storyboard */,
 				FA883C8D25B03E8000FADF45 /* Assets.xcassets */,
 				FA883C8F25B03E8000FADF45 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA883C8625B03E7C00FADF45 /* ViewController.swift in Sources */,
+				FAFEA42A25B18FF900B68E73 /* FuncViewController.swift in Sources */,
 				FA883C8225B03E7C00FADF45 /* AppDelegate.swift in Sources */,
 				FA883CBF25B04EB700FADF45 /* NSStringViewController.swift in Sources */,
 				FA883CC925B04FF800FADF45 /* NSArrayViewController.swift in Sources */,

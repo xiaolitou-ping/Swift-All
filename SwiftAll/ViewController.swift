@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         loadDatas();
     }
     func loadDatas() {
-        swiftNameArr = ["NSString","NSDictionary","NSArray","UILabel"];
+        swiftNameArr = ["NSString","NSDictionary","NSArray","function"];
         self.tableView?.reloadData();
     }
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -60,6 +60,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if indexPath.row == 2{
             let arrayVC = NSArrayViewController();
             self.navigationController!.pushViewController(arrayVC, animated: true);
+        }else if indexPath.row == 3{
+            let funcVC = FuncViewController();
+            self.navigationController!.pushViewController(funcVC, animated: true);
         }
     }
 
