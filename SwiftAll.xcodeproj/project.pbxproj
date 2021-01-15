@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FA883C8225B03E7C00FADF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883C8125B03E7C00FADF45 /* AppDelegate.swift */; };
-		FA883C8425B03E7C00FADF45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883C8325B03E7C00FADF45 /* SceneDelegate.swift */; };
 		FA883C8625B03E7C00FADF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883C8525B03E7C00FADF45 /* ViewController.swift */; };
 		FA883C8925B03E7C00FADF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA883C8725B03E7C00FADF45 /* Main.storyboard */; };
 		FA883C8C25B03E7C00FADF45 /* SwiftAll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA883C8A25B03E7C00FADF45 /* SwiftAll.xcdatamodeld */; };
@@ -16,6 +15,9 @@
 		FA883C9125B03E8000FADF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA883C8F25B03E8000FADF45 /* LaunchScreen.storyboard */; };
 		FA883C9C25B03E8000FADF45 /* SwiftAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883C9B25B03E8000FADF45 /* SwiftAllTests.swift */; };
 		FA883CA725B03E8000FADF45 /* SwiftAllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CA625B03E8000FADF45 /* SwiftAllUITests.swift */; };
+		FA883CBF25B04EB700FADF45 /* NSStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */; };
+		FA883CC425B04FE000FADF45 /* NSDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */; };
+		FA883CC925B04FF800FADF45 /* NSArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		FA883C7E25B03E7C00FADF45 /* SwiftAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA883C8125B03E7C00FADF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA883C8325B03E7C00FADF45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA883C8525B03E7C00FADF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA883C8825B03E7C00FADF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA883C8B25B03E7C00FADF45 /* SwiftAll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftAll.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		FA883CA225B03E8000FADF45 /* SwiftAllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA883CA625B03E8000FADF45 /* SwiftAllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAllUITests.swift; sourceTree = "<group>"; };
 		FA883CA825B03E8000FADF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStringViewController.swift; sourceTree = "<group>"; };
+		FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionaryViewController.swift; sourceTree = "<group>"; };
+		FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSArrayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				FA883C8125B03E7C00FADF45 /* AppDelegate.swift */,
-				FA883C8325B03E7C00FADF45 /* SceneDelegate.swift */,
 				FA883C8525B03E7C00FADF45 /* ViewController.swift */,
+				FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */,
+				FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */,
+				FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */,
 				FA883C8725B03E7C00FADF45 /* Main.storyboard */,
 				FA883C8D25B03E8000FADF45 /* Assets.xcassets */,
 				FA883C8F25B03E8000FADF45 /* LaunchScreen.storyboard */,
@@ -263,8 +269,10 @@
 			files = (
 				FA883C8625B03E7C00FADF45 /* ViewController.swift in Sources */,
 				FA883C8225B03E7C00FADF45 /* AppDelegate.swift in Sources */,
-				FA883C8425B03E7C00FADF45 /* SceneDelegate.swift in Sources */,
+				FA883CBF25B04EB700FADF45 /* NSStringViewController.swift in Sources */,
+				FA883CC925B04FF800FADF45 /* NSArrayViewController.swift in Sources */,
 				FA883C8C25B03E7C00FADF45 /* SwiftAll.xcdatamodeld in Sources */,
+				FA883CC425B04FE000FADF45 /* NSDictionaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +457,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaChuiKeji.SwiftAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -468,7 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaChuiKeji.SwiftAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
