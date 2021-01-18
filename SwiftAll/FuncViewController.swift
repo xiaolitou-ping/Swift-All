@@ -13,6 +13,7 @@ class FuncViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "function"
+        self.view.backgroundColor = UIColor.white;
         
         self.myFunc1()
         print(self.myFunc2());

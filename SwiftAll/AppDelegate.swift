@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let RootView = ViewController();
         let rootNavigetionViewCon = UINavigationController(rootViewController: RootView);
+        //设置导航栏颜色
+        rootNavigetionViewCon.navigationBar.barTintColor = UIColor.white
         self.window?.rootViewController = rootNavigetionViewCon;
         
         self.window?.makeKeyAndVisible();

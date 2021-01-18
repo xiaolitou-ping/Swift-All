@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         loadDatas();
     }
     func loadDatas() {
-        swiftNameArr = ["NSString","NSDictionary","NSArray","function"];
+        swiftNameArr = ["NSString","NSDictionary","NSArray","function","UILabel","UIButton","UITextFile","UITextView","UIImageView","Gestures","UISlider","UISWich","UIActivityIndicatorView","WKWebView","UIPageControl","UISegmentedControl","UIProgressView","UIStepper","UIPickerView","UIDatePicker","UISearchBar","正向传值","代理传值","闭包传值","UINavigationController","UIAlertController","UIScrollView","UITableView","UICollectionView","UIViewAnimation","GIFAnimation","UserDefaults","Plist","NSKeyedArchiver","SQLite","CoreData","SnapKit","Alamofire,SwiftyJSON","Kingfisher","RxSwift"];
         self.tableView?.reloadData();
     }
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -63,6 +63,78 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if indexPath.row == 3{
             let funcVC = FuncViewController();
             self.navigationController!.pushViewController(funcVC, animated: true);
+        }else if indexPath.row == 4{
+            let labelVC = UILabelViewController();
+            self.navigationController!.pushViewController(labelVC, animated: true);
+        }else if indexPath.row == 5{
+            let buttonVC = UIButtonViewController();
+            self.navigationController!.pushViewController(buttonVC, animated: true);
+        }else if indexPath.row == 6{
+            let textFileVC = UITextFileViewController();
+            self.navigationController!.pushViewController(textFileVC, animated: true);
+        }else if indexPath.row == 7{
+            let textViewVC = UITextViewController();
+            self.navigationController!.pushViewController(textViewVC, animated: true);
+        }else if indexPath.row == 8{
+            let imageVC = UIImageViewController();
+            self.navigationController!.pushViewController(imageVC, animated: true);
+        }else if indexPath.row == 9{
+            let gesturesVC = GesturesViewController();
+            self.navigationController!.pushViewController(gesturesVC, animated: true);
+        }else if indexPath.row == 10{
+            let sliderVC = UISliderViewController();
+            self.navigationController!.pushViewController(sliderVC, animated: true);
+        }else if indexPath.row == 11{
+            let swichVC = UISwichViewController();
+            self.navigationController!.pushViewController(swichVC, animated: true);
+        }else if indexPath.row == 12{
+            let activityIndicatorVC = UIActivityIndicatorViewController();
+            self.navigationController!.pushViewController(activityIndicatorVC, animated: true);
+        }else if indexPath.row == 13{
+            let webVC = WKWebViewController();
+            self.navigationController!.pushViewController(webVC, animated: true);
+        }else if indexPath.row == 14{
+            let pageViewVC = UIPageControlViewController();
+            self.navigationController!.pushViewController(pageViewVC, animated: true);
+        }else if indexPath.row == 15{
+            let segmentVC = UISegmentedControlViewController();
+            self.navigationController!.pushViewController(segmentVC, animated: true);
+        }else if indexPath.row == 16{
+            let progressVC = UIProgressViewController();
+            self.navigationController!.pushViewController(progressVC, animated: true);
+        }else if indexPath.row == 17{
+            let StepperVC = UIStepperViewController();
+            self.navigationController!.pushViewController(StepperVC, animated: true);
+        }else if indexPath.row == 18{
+            let pickViewVC = UIPickerViewController();
+            self.navigationController!.pushViewController(pickViewVC, animated: true);
+        }else if indexPath.row == 19{
+            let datePickVC = UIDatePickerViewController();
+            self.navigationController!.pushViewController(datePickVC, animated: true);
+        }else if indexPath.row == 20{
+            let searchBarVC = UISearchBarViewController();
+            self.navigationController!.pushViewController(searchBarVC, animated: true);
+        }else if indexPath.row == 21{
+            let value = ValueOneViewController();
+            self.navigationController!.pushViewController(value, animated: true);
+        }else if indexPath.row == 22{
+            let delegate = DelegateOneViewController();
+            self.navigationController!.pushViewController(delegate, animated: true);
+        }else if indexPath.row == 23{
+            let closure = ClosureOneViewController();
+            self.navigationController!.pushViewController(closure, animated: true);
+        }else if indexPath.row == 24{
+            let navigationControllerVC = UINavigationControllerViewController();
+            self.navigationController!.pushViewController(navigationControllerVC, animated: true);
+        }else if indexPath.row == 25{
+            let alertControllerVC = UIAlertControllerViewController();
+            self.navigationController!.pushViewController(alertControllerVC, animated: true);
+        }else if indexPath.row == 26{
+            let scrollViewVC = UIScrollViewController();
+            self.navigationController!.pushViewController(scrollViewVC, animated: true);
+        }else if indexPath.row == 27{
+            let tableViewVC = UITableViewController();
+            self.navigationController!.pushViewController(tableViewVC, animated: true);
         }
     }
 
