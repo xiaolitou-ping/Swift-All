@@ -36,6 +36,7 @@
 		FA2B52C625B59E7C006371D0 /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B52C525B59E7C006371D0 /* UITableViewController.swift */; };
 		FA2B52CC25B59F85006371D0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B52CB25B59F85006371D0 /* Product.swift */; };
 		FA2B52D125B59FB7006371D0 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B52D025B59FB7006371D0 /* ProductTableViewCell.swift */; };
+		FA2B52D925B5B044006371D0 /* UICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B52D825B5B044006371D0 /* UICollectionViewController.swift */; };
 		FA883C8225B03E7C00FADF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883C8125B03E7C00FADF45 /* AppDelegate.swift */; };
 		FA883C8625B03E7C00FADF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883C8525B03E7C00FADF45 /* ViewController.swift */; };
 		FA883C8925B03E7C00FADF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA883C8725B03E7C00FADF45 /* Main.storyboard */; };
@@ -97,6 +98,7 @@
 		FA2B52C525B59E7C006371D0 /* UITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
 		FA2B52CB25B59F85006371D0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		FA2B52D025B59FB7006371D0 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FA2B52D825B5B044006371D0 /* UICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewController.swift; sourceTree = "<group>"; };
 		FA883C7E25B03E7C00FADF45 /* SwiftAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA883C8125B03E7C00FADF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA883C8525B03E7C00FADF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				FA2B52B925B59901006371D0 /* UIAlertControllerViewController.swift */,
 				FA2B52BF25B59CCC006371D0 /* UIScrollViewController.swift */,
 				FA2B52C425B59E34006371D0 /* UITableViewController */,
+				FA2B52D825B5B044006371D0 /* UICollectionViewController.swift */,
 				FA883C8725B03E7C00FADF45 /* Main.storyboard */,
 				FA883C8D25B03E8000FADF45 /* Assets.xcassets */,
 				FA883C8F25B03E8000FADF45 /* LaunchScreen.storyboard */,
@@ -409,6 +412,7 @@
 				FA2B524C25B57554006371D0 /* UIActivityIndicatorViewController.swift in Sources */,
 				FA2B527025B57DFF006371D0 /* UIPickerViewController.swift in Sources */,
 				FA2B526B25B57D0A006371D0 /* UIStepperViewController.swift in Sources */,
+				FA2B52D925B5B044006371D0 /* UICollectionViewController.swift in Sources */,
 				FA2B51FB25B519A1006371D0 /* UIButtonViewController.swift in Sources */,
 				FA883CBF25B04EB700FADF45 /* NSStringViewController.swift in Sources */,
 				FA883CC925B04FF800FADF45 /* NSArrayViewController.swift in Sources */,

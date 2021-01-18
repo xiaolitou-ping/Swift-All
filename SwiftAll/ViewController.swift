@@ -135,6 +135,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if indexPath.row == 27{
             let tableViewVC = UITableViewController();
             self.navigationController!.pushViewController(tableViewVC, animated: true);
+        }else if indexPath.row == 28{
+            let collectionVC = UICollectionViewController();
+            self.navigationController!.pushViewController(collectionVC, animated: true);
         }
     }
 
