@@ -48,6 +48,16 @@
 		FA883CBF25B04EB700FADF45 /* NSStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */; };
 		FA883CC425B04FE000FADF45 /* NSDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */; };
 		FA883CC925B04FF800FADF45 /* NSArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */; };
+		FAAD09AC25B671180005A82F /* WaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09AB25B671180005A82F /* WaterFallLayout.swift */; };
+		FAAD09B125B6732E0005A82F /* UIAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09B025B6732E0005A82F /* UIAnimationViewController.swift */; };
+		FAAD09BA25B674680005A82F /* GIFAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09B925B674680005A82F /* GIFAnimationViewController.swift */; };
+		FAAD09C225B6758B0005A82F /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAAD09C125B6758B0005A82F /* animation.gif */; };
+		FAAD09C725B679B60005A82F /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09C625B679B60005A82F /* UserDefaultsViewController.swift */; };
+		FAAD09CC25B67A990005A82F /* PlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09CB25B67A990005A82F /* PlistViewController.swift */; };
+		FAAD09DA25B6C8FA0005A82F /* ArchiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09D925B6C8FA0005A82F /* ArchiverViewController.swift */; };
+		FAAD09E225B6C9350005A82F /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09E125B6C9350005A82F /* People.swift */; };
+		FAAD09ED25B6D9660005A82F /* SQLiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09EC25B6D9660005A82F /* SQLiteViewController.swift */; };
+		FAAD09F725B6D9BE0005A82F /* ObjectiveC_Hander.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAD09F625B6D9BE0005A82F /* ObjectiveC_Hander.m */; };
 		FAFEA42A25B18FF900B68E73 /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFEA42925B18FF900B68E73 /* FuncViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +126,18 @@
 		FA883CBE25B04EB700FADF45 /* NSStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStringViewController.swift; sourceTree = "<group>"; };
 		FA883CC325B04FE000FADF45 /* NSDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionaryViewController.swift; sourceTree = "<group>"; };
 		FA883CC825B04FF800FADF45 /* NSArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSArrayViewController.swift; sourceTree = "<group>"; };
+		FAAD09AB25B671180005A82F /* WaterFallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallLayout.swift; sourceTree = "<group>"; };
+		FAAD09B025B6732E0005A82F /* UIAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimationViewController.swift; sourceTree = "<group>"; };
+		FAAD09B925B674680005A82F /* GIFAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFAnimationViewController.swift; sourceTree = "<group>"; };
+		FAAD09C125B6758B0005A82F /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
+		FAAD09C625B679B60005A82F /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
+		FAAD09CB25B67A990005A82F /* PlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistViewController.swift; sourceTree = "<group>"; };
+		FAAD09D925B6C8FA0005A82F /* ArchiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiverViewController.swift; sourceTree = "<group>"; };
+		FAAD09E125B6C9350005A82F /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		FAAD09EC25B6D9660005A82F /* SQLiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteViewController.swift; sourceTree = "<group>"; };
+		FAAD09F425B6D9BD0005A82F /* SwiftAll-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftAll-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAAD09F525B6D9BE0005A82F /* ObjectiveC_Hander.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveC_Hander.h; sourceTree = "<group>"; };
+		FAAD09F625B6D9BE0005A82F /* ObjectiveC_Hander.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_Hander.m; sourceTree = "<group>"; };
 		FAFEA42925B18FF900B68E73 /* FuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,7 +256,14 @@
 				FA2B52B925B59901006371D0 /* UIAlertControllerViewController.swift */,
 				FA2B52BF25B59CCC006371D0 /* UIScrollViewController.swift */,
 				FA2B52C425B59E34006371D0 /* UITableViewController */,
-				FA2B52D825B5B044006371D0 /* UICollectionViewController.swift */,
+				FAAD09AA25B6707A0005A82F /* UICollectionView */,
+				FAAD09B025B6732E0005A82F /* UIAnimationViewController.swift */,
+				FAAD09B925B674680005A82F /* GIFAnimationViewController.swift */,
+				FAAD09C125B6758B0005A82F /* animation.gif */,
+				FAAD09C625B679B60005A82F /* UserDefaultsViewController.swift */,
+				FAAD09CB25B67A990005A82F /* PlistViewController.swift */,
+				FAAD09D025B67B2C0005A82F /* Archiver */,
+				FAAD09EB25B6D9100005A82F /* SQLite */,
 				FA883C8725B03E7C00FADF45 /* Main.storyboard */,
 				FA883C8D25B03E8000FADF45 /* Assets.xcassets */,
 				FA883C8F25B03E8000FADF45 /* LaunchScreen.storyboard */,
@@ -260,6 +289,35 @@
 				FA883CA825B03E8000FADF45 /* Info.plist */,
 			);
 			path = SwiftAllUITests;
+			sourceTree = "<group>";
+		};
+		FAAD09AA25B6707A0005A82F /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B52D825B5B044006371D0 /* UICollectionViewController.swift */,
+				FAAD09AB25B671180005A82F /* WaterFallLayout.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		FAAD09D025B67B2C0005A82F /* Archiver */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD09D925B6C8FA0005A82F /* ArchiverViewController.swift */,
+				FAAD09E125B6C9350005A82F /* People.swift */,
+			);
+			path = Archiver;
+			sourceTree = "<group>";
+		};
+		FAAD09EB25B6D9100005A82F /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD09EC25B6D9660005A82F /* SQLiteViewController.swift */,
+				FAAD09F525B6D9BE0005A82F /* ObjectiveC_Hander.h */,
+				FAAD09F625B6D9BE0005A82F /* ObjectiveC_Hander.m */,
+				FAAD09F425B6D9BD0005A82F /* SwiftAll-Bridging-Header.h */,
+			);
+			path = SQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +387,7 @@
 				TargetAttributes = {
 					FA883C7D25B03E7C00FADF45 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					FA883C9625B03E8000FADF45 = {
 						CreatedOnToolsVersion = 12.3;
@@ -366,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA883C9125B03E8000FADF45 /* LaunchScreen.storyboard in Resources */,
+				FAAD09C225B6758B0005A82F /* animation.gif in Resources */,
 				FA883C8E25B03E8000FADF45 /* Assets.xcassets in Resources */,
 				FA883C8925B03E7C00FADF45 /* Main.storyboard in Resources */,
 			);
@@ -407,6 +467,7 @@
 				FA2B526625B57C27006371D0 /* UIProgressViewController.swift in Sources */,
 				FA2B528825B58819006371D0 /* ValueOneViewController.swift in Sources */,
 				FA2B523F25B57015006371D0 /* UISliderViewController.swift in Sources */,
+				FAAD09ED25B6D9660005A82F /* SQLiteViewController.swift in Sources */,
 				FA883C8225B03E7C00FADF45 /* AppDelegate.swift in Sources */,
 				FA2B51F625B51667006371D0 /* UILabelViewController.swift in Sources */,
 				FA2B524C25B57554006371D0 /* UIActivityIndicatorViewController.swift in Sources */,
@@ -416,16 +477,24 @@
 				FA2B51FB25B519A1006371D0 /* UIButtonViewController.swift in Sources */,
 				FA883CBF25B04EB700FADF45 /* NSStringViewController.swift in Sources */,
 				FA883CC925B04FF800FADF45 /* NSArrayViewController.swift in Sources */,
+				FAAD09B125B6732E0005A82F /* UIAnimationViewController.swift in Sources */,
 				FA2B527B25B58241006371D0 /* UISearchBarViewController.swift in Sources */,
 				FA883C8C25B03E7C00FADF45 /* SwiftAll.xcdatamodeld in Sources */,
+				FAAD09AC25B671180005A82F /* WaterFallLayout.swift in Sources */,
+				FAAD09F725B6D9BE0005A82F /* ObjectiveC_Hander.m in Sources */,
 				FA2B52A425B592E9006371D0 /* ClosureOneViewController.swift in Sources */,
 				FA2B52BA25B59901006371D0 /* UIAlertControllerViewController.swift in Sources */,
 				FA2B52CC25B59F85006371D0 /* Product.swift in Sources */,
+				FAAD09C725B679B60005A82F /* UserDefaultsViewController.swift in Sources */,
+				FAAD09DA25B6C8FA0005A82F /* ArchiverViewController.swift in Sources */,
 				FA2B525E25B57B71006371D0 /* UISegmentedControlViewController.swift in Sources */,
+				FAAD09BA25B674680005A82F /* GIFAnimationViewController.swift in Sources */,
 				FA2B52D125B59FB7006371D0 /* ProductTableViewCell.swift in Sources */,
 				FA2B522F25B55B1C006371D0 /* UIImageViewController.swift in Sources */,
 				FA2B52C625B59E7C006371D0 /* UITableViewController.swift in Sources */,
+				FAAD09CC25B67A990005A82F /* PlistViewController.swift in Sources */,
 				FA883CC425B04FE000FADF45 /* NSDictionaryViewController.swift in Sources */,
+				FAAD09E225B6C9350005A82F /* People.swift in Sources */,
 				FA2B525325B57751006371D0 /* WKWebViewController.swift in Sources */,
 				FA2B529F25B58D6E006371D0 /* DelegateTwoViewController.swift in Sources */,
 				FA2B529325B58840006371D0 /* ValueTwoViewController.swift in Sources */,
@@ -604,6 +673,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZB5AWX4Z6;
 				INFOPLIST_FILE = SwiftAll/Info.plist;
@@ -613,6 +683,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaChuiKeji.SwiftAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftAll/SQLite/SwiftAll-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -623,6 +695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZB5AWX4Z6;
 				INFOPLIST_FILE = SwiftAll/Info.plist;
@@ -632,6 +705,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaChuiKeji.SwiftAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftAll/SQLite/SwiftAll-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

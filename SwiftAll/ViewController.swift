@@ -138,6 +138,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if indexPath.row == 28{
             let collectionVC = UICollectionViewController();
             self.navigationController!.pushViewController(collectionVC, animated: true);
+        }else if indexPath.row == 29{
+            let animationViewVC = UIAnimationViewController();
+            self.navigationController!.pushViewController(animationViewVC, animated: true);
+        }else if indexPath.row == 30{
+            let GIFAnimationViewVC = GIFAnimationViewController();
+            self.navigationController!.pushViewController(GIFAnimationViewVC, animated: true);
+        }else if indexPath.row == 31{
+            let UserDefaultsVC = UserDefaultsViewController();
+            self.navigationController!.pushViewController(UserDefaultsVC, animated: true);
+        }else if indexPath.row == 32{
+            let plistVC = PlistViewController();
+            self.navigationController!.pushViewController(plistVC, animated: true);
+        }else if indexPath.row == 33{
+            let archiverVC = ArchiverViewController();
+            self.navigationController!.pushViewController(archiverVC, animated: true);
+        }else if indexPath.row == 34{
+            let SQLiteVC = SQLiteViewController();
+            self.navigationController!.pushViewController(SQLiteVC, animated: true);
         }
     }
 
