@@ -61,6 +61,20 @@ class NSStringViewController: UIViewController {
         
         
         //String
+        // 使用字符串字面量创建空字符串
+        let stringA = ""
+        if stringA.isEmpty {
+           print( "stringA 是空的" )
+        } else {
+           print( "stringA 不是空的" )
+        }
+        // 实例化 String 类来创建空字符串
+        let stringB = String()
+        if stringB.isEmpty {
+           print( "stringB 是空的" )
+        } else {
+           print( "stringB 不是空的" )
+        }
         let str11:String = "SwiftString";
         print(str11)
         //String转NSString
@@ -71,6 +85,8 @@ class NSStringViewController: UIViewController {
         print(str12);
         str12 = str12+str11;
         print(str2);
+        let str13 = str11 + str12;
+        print(str13,str13.count);
         //字符串比较
         let  str14 = "NSString,我来了."
         let  str15 = "NSString,我来了."

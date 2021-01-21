@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         loadDatas();
     }
     func loadDatas() {
-        swiftNameArr = ["NSString","NSDictionary","NSArray","function","UILabel","UIButton","UITextFile","UITextView","UIImageView","Gestures","UISlider","UISWich","UIActivityIndicatorView","WKWebView","UIPageControl","UISegmentedControl","UIProgressView","UIStepper","UIPickerView","UIDatePicker","UISearchBar","正向传值","代理传值","闭包传值","UINavigationController","UIAlertController","UIScrollView","UITableView","UICollectionView","UIViewAnimation","GIFAnimation","UserDefaults","Plist","NSKeyedArchiver","SQLite","CoreData","SnapKit","Alamofire,SwiftyJSON","Kingfisher","RxSwift"];
+        swiftNameArr = ["NSString","NSDictionary","NSArray","function","UILabel","UIButton","UITextFile","UITextView","UIImageView","Gestures","UISlider","UISWich","UIActivityIndicatorView","WKWebView","UIPageControl","UISegmentedControl","UIProgressView","UIStepper","UIPickerView","UIDatePicker","UISearchBar","正向传值","代理传值","闭包传值","UINavigationController","UIAlertController","UIScrollView","UITableView","UICollectionView","UIViewAnimation","GIFAnimation","UserDefaults","Plist","NSKeyedArchiver","SQLite","CoreData","SnapKit","Alamofire","Kingfisher","RxSwift"];
         self.tableView?.reloadData();
     }
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -156,6 +156,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if indexPath.row == 34{
             let SQLiteVC = SQLiteViewController();
             self.navigationController!.pushViewController(SQLiteVC, animated: true);
+        }else if indexPath.row == 36{
+            let snapkitVC = SnapkitViewController();
+            self.navigationController!.pushViewController(snapkitVC, animated: true);
+        }else if indexPath.row == 37{
+            let alamofireVC = AlamofireViewController();
+            self.navigationController!.pushViewController(alamofireVC, animated: true);
         }
     }
 
