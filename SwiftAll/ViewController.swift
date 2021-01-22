@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         loadDatas();
     }
     func loadDatas() {
-        swiftNameArr = ["NSString","NSDictionary","NSArray","function","UILabel","UIButton","UITextFile","UITextView","UIImageView","Gestures","UISlider","UISWich","UIActivityIndicatorView","WKWebView","UIPageControl","UISegmentedControl","UIProgressView","UIStepper","UIPickerView","UIDatePicker","UISearchBar","正向传值","代理传值","闭包传值","UINavigationController","UIAlertController","UIScrollView","UITableView","UICollectionView","UIViewAnimation","GIFAnimation","UserDefaults","Plist","NSKeyedArchiver","SQLite","CoreData","SnapKit","Alamofire","Kingfisher","RxSwift"];
+        swiftNameArr = ["NSString","NSDictionary","NSArray","function","UILabel","UIButton","UITextFile","UITextView","UIImageView","Gestures","UISlider","UISWich","UIActivityIndicatorView","WKWebView","UIPageControl","UISegmentedControl","UIProgressView","UIStepper","UIPickerView","UIDatePicker","UISearchBar","正向传值","代理传值","闭包传值","UINavigationController","UIAlertController","UIScrollView","UITableView","UICollectionView","UIViewAnimation","GIFAnimation","UserDefaults","Plist","NSKeyedArchiver","SQLite","CoreData","SnapKit","Alamofire","Kingfisher"];
         self.tableView?.reloadData();
     }
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -162,6 +162,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if indexPath.row == 37{
             let alamofireVC = AlamofireViewController();
             self.navigationController!.pushViewController(alamofireVC, animated: true);
+        }else if indexPath.row == 38{
+            let kingfisherVC = KingfisherViewController();
+            self.navigationController!.pushViewController(kingfisherVC, animated: true);
         }
     }
 

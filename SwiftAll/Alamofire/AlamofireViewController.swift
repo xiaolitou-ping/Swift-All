@@ -77,9 +77,9 @@ class AlamofireViewController: UIViewController {
         let param =  ["mobile":"17688901433","password":"123456","version":"V1.7.0"]
         
         AF.request(urlStr,
-                       method: .post,
-                       parameters: param,
-                       encoder: JSONParameterEncoder.default)
+                   method: .post,
+                   parameters: param,
+                   encoder: JSONParameterEncoder.default)
             .response { response in
                 debugPrint(response)
                 
